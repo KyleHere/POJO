@@ -9,9 +9,14 @@ getFullName(p1); // => 'John Doe'
 let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
 getFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
-
+//Understand
+  //function name getFullName
+    //acepts object (person)
+  //return a string containing full name
+//Plan
+//
 function getFullName(person) {
-  // your code here
+  return person.firstName + " " + person.lastName;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
